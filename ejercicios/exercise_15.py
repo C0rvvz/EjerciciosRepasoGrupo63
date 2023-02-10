@@ -1,16 +1,16 @@
 if __name__ == "__main__":
 
 
-    word = input("Enter your word: ")
+    word = input ("Enter your word: ")
 
 
-    if str(word) == str(word)[::-1]:
+    if str (word) == str (word) [::-1]:
 
 
-        print("Palindrome")
+        print ("Palindrome")
 
 
     else:
 
 
-        print("Not Palindrome")
+        print ("Not Palindrome")
