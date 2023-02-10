@@ -2,7 +2,6 @@ if __name__ == "__main__":
 
     lista = []
 
-
     def maximo_y_minimo(numeros):
 
         maximo = numeros[0]
@@ -20,6 +19,7 @@ if __name__ == "__main__":
 
 
         return maximo,minimo
+
 
     cantidad_de_numeros = int(input("Cual sera la cantidad de numeros?: "))
 
