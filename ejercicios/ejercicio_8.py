@@ -14,9 +14,13 @@ if __name__ == "__main__":
 
 
     def invertir_lista(numeros):
+
+
         return numeros[::-1]
 
+
     lista_invertida=invertir_lista(lista)
+
 
     print(f"original{lista}")
     print(f"invertida{lista_invertida}")
